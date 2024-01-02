@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+#conteiner {
+    background: rgba(0, 0, 0, 0.5);
+    width: 1160px;
+    height: 825px;
+    margin: 28px auto 80px auto;
+    border-radius: 18px;
+}
+
+#logo {
+    width: 230px;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#titolo {
+    color: rgb(0, 222, 1);
+    font-size: 28px;
+    text-align: center;
+    line-height: 1px;
+}
+
+#btn-bar {
+    width: 950px;
+    height: 42px;
+    background-color: rgb(0, 222, 1);
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0 5px 0 5px;
+}
+
+label {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.checkbox-section{
+    color: #fff;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto 50px auto;
+}
+
+.checkbox-section-p{
+    line-height: 5px;
+}
+
+.checkbox-section-progressbar {
+    height: 30px;
+    border-radius: 8px;
+}
+
+#progressbar-1{
+    width: 30%;
+}
+
+#progressbar-2 {
+    width: 55%;
+}
+
+#progressbar-3 {
+    width: 15%;
+}
