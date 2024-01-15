@@ -1,0 +1,86 @@
+/* Regole di inizializzazione */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+}
+
+/* Parte Superiore */
+.carta-contenitore {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    margin: 30px auto 0 auto;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#contenitore-immagine {
+    color: rgb(0, 222, 1);
+    text-align: center;
+}
+
+img {
+    margin-top: 90px;
+    width: 250px;
+    height: 120px;
+}
+
+/* Parte Centrale */
+#contenitore-bottoni {
+    width: 80%;
+    margin: 10px auto 0 auto;
+    background-color: rgb(0, 222, 1);
+}
+
+#contenitore-bottoni > div {
+    width: 30%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+/* Parte Inferiore */
+#contenitore-sezioni {
+    color: #fff;
+    width: 80%;
+    margin: 20px auto 90px auto;
+}
+
+section > span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    margin-bottom: 25px;
+}
+section:last-child{
+    padding-bottom: 200px;
+}
+
+.barra-progresso {
+    height: 25px;
+    border-radius: 5px;
+}
+
+#contenitore-sezioni section:nth-child(1) div {
+    width: 35%;
+    background-color: rgb(244, 180, 83);
+}
+
+#contenitore-sezioni section:nth-child(2) div {
+    width: 60%;
+    background-color: rgb(30, 195, 30);
+}
+
+#contenitore-sezioni section:nth-child(3) div {
+    width: 15%;
+    background-color: rgb(189, 65, 65);
+}
+
+
